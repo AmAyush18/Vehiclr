@@ -142,12 +142,20 @@
   background-color: #f2e8cf;
 }
 
-.text-primary {
+.bg-outline {
+  background-color: #f2e8cf;
+}
+
+.txt-primary {
   color: #373d20;
 }
 
-.text-secondary {
+.txt-secondary {
   color: #9c6644;
+}
+
+.txt-tertiary {
+  color: #606c38;
 }
 
 .dotted-background {

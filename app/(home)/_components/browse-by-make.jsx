@@ -7,7 +7,7 @@ import React from 'react'
 
 const BrowseByMakeSection = () => {
   return (
-    <section className="py-12 tertiary">
+    <section className="py-12 bg-yellow-100">
         <div className="container mx-auto px-4">
           <div className="flex justify-between items-center mb-8">
             <h2 className="text-2xl font-bold">Browse by Make</h2>
