@@ -1,3 +1,4 @@
+import BrowseByMakeSection from "./_components/browse-by-make";
 import FeaturedCarsSection from "./_components/featured-cars";
 import HeaderComponent from "./_components/header";
 
@@ -7,6 +8,8 @@ export default function Home() {
       <HeaderComponent />
 
       <FeaturedCarsSection />
+
+      <BrowseByMakeSection />
     </div>
   );
 }
