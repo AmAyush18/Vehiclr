@@ -46,19 +46,19 @@
 :root {
   --radius: 0.625rem;
   --background: #fefae0; /* primary */
-  --foreground: #6b705c; /* text-primary */
+  --foreground: #373d20; /* text-primary */
   --card: #fefae0; /* primary */
-  --card-foreground: #6b705c; /* text-primary */
+  --card-foreground: #373d20; /* text-primary */
   --popover: #fefae0; /* primary */
-  --popover-foreground: #6b705c; /* text-primary */
+  --popover-foreground: #373d20; /* text-primary */
   --primary: #e9edc9; /* secondary */
-  --primary-foreground: #6b705c; /* text-primary */
+  --primary-foreground: #373d20; /* text-primary */
   --secondary: #fff6cc; /* tertiary */
   --secondary-foreground: #9c6644; /* text-secondary */
   --muted: #ccd5ae; /* outline */
   --muted-foreground: #9c6644; /* text-secondary */
   --accent: #ccd5ae; /* outline */
-  --accent-foreground: #6b705c; /* text-primary */
+  --accent-foreground: #373d20; /* text-primary */
   --destructive: #c33f3f;
   --border: #ccd5ae; /* outline */
   --input: #e9edc9; /* secondary */
@@ -69,9 +69,9 @@
   --chart-4: #a7b790; /* darker version of outline */
   --chart-5: #9c6644; /* text-secondary */
   --sidebar: #fefae0; /* primary */
-  --sidebar-foreground: #6b705c; /* text-primary */
+  --sidebar-foreground: #373d20; /* text-primary */
   --sidebar-primary: #e9edc9; /* secondary */
-  --sidebar-primary-foreground: #6b705c; /* text-primary */
+  --sidebar-primary-foreground: #373d20; /* text-primary */
   --sidebar-accent: #fff6cc; /* tertiary */
   --sidebar-accent-foreground: #9c6644; /* text-secondary */
   --sidebar-border: #ccd5ae; /* outline */
@@ -139,9 +139,24 @@
 }
 
 .text-primary {
-  color: #6b705c;
+  color: #373d20;
 }
 
 .text-secondary {
   color: #9c6644;
+}
+
+.dotted-background {
+  background-color: #d68c45;
+  background-image: radial-gradient(
+    rgba(232, 247, 214, 0.321) 1px,
+    transparent 1px
+  );
+  background-size: 30px 30px;
+}
+
+@layer utilities {
+  .gradient-title {
+    @apply bg-gradient-to-br from-[#081c15] to-[#10451d] font-extrabold tracking-tighter pr-2 pb-2 text-transparent bg-clip-text z-2;
+  }
 }
