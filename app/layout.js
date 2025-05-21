@@ -23,8 +23,8 @@ export default function RootLayout({ children }) {
           </main>
             <footer className="py-12 secondary">
               <div className="container font-semibold mx-auto px-4 text-center text-gray-600">
-                <p>&copy; 2025 Code Therapist (Ayush Dwivedi)</p>
-                <p>Made with ❤️ from Bharat</p>
+                <p>&copy; 2025 <strong>Vehiclr</strong> by Code Therapist (Ayush Dwivedi)</p>
+                <p>Made with ❤️ from <strong>Bharat</strong></p>
               </div>
             </footer>
         </body>
