@@ -18,10 +18,10 @@ export default function RootLayout({ children }) {
           className={`${inter.variable}`}
         >
           <Header />
-          <main className="min-h-screen">
+          <main className="min-h-screen primary">
             {children}
           </main>
-            <footer className="bg-blue-100 py-12">
+            <footer className="py-12 secondary">
               <div className="container font-semibold mx-auto px-4 text-center text-gray-600">
                 <p>&copy; 2025 Code Therapist (Ayush Dwivedi)</p>
                 <p>Made with ❤️ from Bharat</p>
