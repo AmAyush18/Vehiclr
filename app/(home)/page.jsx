@@ -1,5 +1,6 @@
 import BrowseByBodyType from "./_components/browse-by-body-type";
 import BrowseByMakeSection from "./_components/browse-by-make";
+import FaqSection from "./_components/faq";
 import FeaturedCarsSection from "./_components/featured-cars";
 import HeaderComponent from "./_components/header";
 import WhyChooseUsSection from "./_components/why-choose-us";
@@ -16,6 +17,8 @@ export default function Home() {
       <WhyChooseUsSection />
 
       <BrowseByBodyType />
+
+      <FaqSection />
     </div>
   );
 }
