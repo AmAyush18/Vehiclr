@@ -1,5 +1,5 @@
 import React from 'react'
-import HomeSearch from './home-search'
+import { HomeSearch } from './home-search'
 
 const HeaderComponent = () => {
   return (

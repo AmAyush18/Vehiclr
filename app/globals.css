@@ -143,7 +143,7 @@
 }
 
 .bg-outline {
-  background-color: #f2e8cf;
+  background-color: #f2e8cf !important;
 }
 
 .txt-primary {
