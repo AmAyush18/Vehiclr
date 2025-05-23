@@ -140,7 +140,7 @@ export function HomeSearch() {
                       <p className="text-red-700 mb-2">Invalid image type!</p>
                     )}
                     <p className="text-secondary text-sm">
-                      Supports: JPG, PNG (max 5MB)
+                      Supports: JPG, JPEG, PNG (max 5MB)
                     </p>
                   </div>
                 </div>
