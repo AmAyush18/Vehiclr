@@ -82,7 +82,7 @@ export function HomeSearch() {
             placeholder="Enter make, model, or use our AI Image Search..."
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
-            className="pl-10 pr-12 py-6 w-full rounded-full border-gray-300 light-outline backdrop-blur-sm"
+            className="pl-10 pr-12 py-6 w-full rounded-full border-gray-300 primary backdrop-blur-sm"
           />
 
           {/* Image Search Button */}
