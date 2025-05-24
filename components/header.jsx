@@ -12,7 +12,7 @@ export const Header = async ({ isAdminPage = false }) => {
 
   return (
     <header className="fixed top-0 tertiary w-full backdrop-blur-md z-50 border-b">
-      <nav className="mx-auto px-4 py-4 flex items-center justify-between">
+      <nav className="mx-auto px-4 py-2 flex items-center justify-between">
         <Link href={isAdminPage ? "/admin" : "/"} className="flex">
           <Image 
             src={'/vehiclr_logo.png'}

@@ -5,6 +5,7 @@ import FaqSection from "./_components/faq";
 import FeaturedCarsSection from "./_components/featured-cars";
 import WhyChooseUsSection from "./_components/why-choose-us";
 import HeroSection from "./_components/hero";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
@@ -22,6 +23,8 @@ export default function Home() {
       <FaqSection />
 
       <CtaSection />
+
+      <Footer />
     </div>
   );
 }
