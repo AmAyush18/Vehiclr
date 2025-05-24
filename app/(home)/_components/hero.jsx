@@ -1,7 +1,7 @@
 import React from 'react'
 import { HomeSearch } from './home-search'
 
-const HeaderComponent = () => {
+const HeroSection = () => {
   return (
     <section className="relative py-16 md:py-28 dotted-background">
         <div className="max-w-4xl mx-auto text-center">
@@ -20,4 +20,4 @@ const HeaderComponent = () => {
   )
 }
 
-export default HeaderComponent
+export default HeroSection

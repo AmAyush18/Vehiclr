@@ -3,9 +3,12 @@ import Image from "next/image"
 import Link from "next/link"
 import { Button } from "./ui/button"
 import { ArrowLeftIcon, CarFrontIcon, HeartIcon } from "lucide-react"
+import { checkUser } from "@/lib/checkUser"
 
 export const Header = async ({ isAdminPage = false }) => {
-  const isAdmin = false
+  const user = await checkUser()
+
+  const isAdmin = user?.role === "ADMIN";
 
   return (
     <header className="fixed top-0 tertiary w-full backdrop-blur-md z-50 border-b">
