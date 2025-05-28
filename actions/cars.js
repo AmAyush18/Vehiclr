@@ -1,3 +1,5 @@
+"use server"
+
 import { GoogleGenerativeAI } from '@google/generative-ai'
 import { cookies } from "next/headers";
 import { revalidatePath } from "next/cache";

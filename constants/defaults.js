@@ -1,0 +1,15 @@
+export const CAR_DEFAULT_VALUES = {
+      make: "",
+      model: "",
+      year: "",
+      price: "",
+      mileage: "",
+      color: "",
+      fuelType: "",
+      transmission: "",
+      bodyType: "",
+      seats: "",
+      description: "",
+      status: "AVAILABLE",
+      featured: false,
+    }
